@@ -235,12 +235,13 @@ em {
 .specialThanks .place,
 .specialThanks .twitter {
   margin-top: 10%;
-  line-height: 2.2;
+  line-height: 3;
   text-align: right;
   font-family: 'Dosis', Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-size: 130%;
   letter-spacing: 0.1em;
 }
+
 
 .hosted {
   margin-top: 40%;
