@@ -4,7 +4,7 @@
 
 /* base */
 body {
-  background: #e2e2e2;
+  background: #e0dcde;
   color: #444;
 }
 img {
@@ -165,15 +165,15 @@ em {
   height: 164px;
   line-height: 164px;
   background: #fff;
-  border-top: 10px solid #e2e2e2;
-  border-bottom: 10px solid #e2e2e2;
-  color: #e2e2e2;
+  border-top: 10px solid #e0dcde;
+  border-bottom: 10px solid #e0dcde;
+  color: #e0dcde;
   font-size: 200%;
   font-weight: bold;
   letter-spacing: 0.1em;
 }
 .download .trigger:hover {
-  background: #e2e2e2;
+  background: #e0dcde;
   border-top: 10px solid #fff;
   border-bottom: 10px solid #fff;
   color: #fff;
