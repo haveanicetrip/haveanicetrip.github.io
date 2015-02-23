@@ -95,14 +95,14 @@ em {
   font-style: italic;
 }
 .information .produced {
-  margin-top: 10%;
+  margin-top: 5%;
   letter-spacing: 0.1em;
 }
 .information .produced:before {
   content: "by";
-  display: inline-block;
-  margin: 0 2% 0 0;
-  text-align: left;
+  display: block;
+  margin: 0 0 3%;
+  text-align: center;
   font-style: italic;
 }
 
@@ -125,11 +125,12 @@ em {
   margin-top: 7%;
   line-height:2;
   text-align: left;
-  font-size: 130%;
-  letter-spacing: 0.15em;
+  font-size: 150%;
+  letter-spacing: 0.3em;
 }
 .lyric .name {
-  font-size: 80%;
+  font-size: 70%;
+  font-style: italic;
   letter-spacing: 0.1em;
 }
 .lyric .verse1 {
@@ -137,7 +138,7 @@ em {
 .lyric .verse1.koitama {
 }
 .lyric .verse1.koitama .name {
-  color: green;
+  color: #00ab6d;
 }
 .lyric .verse2.kaionthemic {
 }
@@ -149,7 +150,7 @@ em {
 .lyric .hook.carios {
 }
 .lyric .hook.carios .name {
-  color: blue;
+  color: #01278e;
 }
 
 
