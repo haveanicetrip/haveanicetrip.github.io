@@ -207,17 +207,19 @@ em {
 }
 .credit .creditList {
   margin-top: 10%;
-  line-height: 2;
+  line-height: 1.7;
   text-align: right;
   font-family: 'Dosis', Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-size: 130%;
   letter-spacing: 0.1em;
 }
 .credit .creditList .title {
+  margin-top: 2%;
   color: #fff;
   font-style: italic;
 }
 .credit .creditList .caption {
+  display: block;
   font-size: 70%;
 }
 .credit .creditList .fa-twitter {
