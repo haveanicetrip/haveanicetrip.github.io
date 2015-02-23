@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @import "normalize.css";
-
+@import url(http://fonts.googleapis.com/css?family=Dosis);
 
 /* base */
 body {
   background: #e0dcde;
-  color: #444;
+  color: #433;
 }
 img {
   max-width: 100%;
@@ -66,6 +66,7 @@ em {
   color: #fff;
   font-size: 160%;
   text-align: center;
+  font-family: 'Dosis', sans-serif;
   letter-spacing: 0.1em;
 }
 
@@ -78,24 +79,29 @@ em {
 }
 .information .title {
   color: #fff;
-  font-size: 200%;
+  font-size: 300%;
+  font-family: 'Dosis', sans-serif;
   font-style: italic;
   letter-spacing: 0.1em;
 }
 .information .featuring {
   margin-top: 5%;
   color: #fff;
+  font-family: 'Dosis', sans-serif;
   font-size: 160%;
+  letter-spacing: 0.1em;
 }
 .information .featuring:before {
   content: "feat.";
   display: inline-block;
   margin: 0 2% 0 0;
   text-align: left;
+  font-family: 'Dosis', sans-serif;
   font-style: italic;
 }
 .information .produced {
   margin-top: 5%;
+  font-family: 'Dosis', sans-serif;
   letter-spacing: 0.1em;
 }
 .information .produced:before {
@@ -103,6 +109,7 @@ em {
   display: block;
   margin: 0 0 3%;
   text-align: center;
+  font-family: 'Dosis', sans-serif;
   font-style: italic;
 }
 
@@ -123,13 +130,15 @@ em {
 .lyric .verse2,
 .lyric .hook {
   margin-top: 7%;
-  line-height:2;
+  line-height:2.2;
   text-align: left;
+  font-family: 'Dosis', Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-size: 150%;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.25em;
 }
 .lyric .name {
   font-size: 70%;
+  font-family: 'Dosis', sans-serif;
   font-style: italic;
   letter-spacing: 0.1em;
 }
@@ -168,6 +177,7 @@ em {
   border-top: 10px solid #e0dcde;
   border-bottom: 10px solid #e0dcde;
   color: #e0dcde;
+  font-family: 'Dosis', sans-serif;
   font-size: 200%;
   font-weight: bold;
   letter-spacing: 0.1em;
@@ -192,6 +202,7 @@ em {
   margin-top: 10%;
   line-height: 2;
   text-align: right;
+  font-family: 'Dosis', Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-size: 130%;
   letter-spacing: 0.1em;
 }
