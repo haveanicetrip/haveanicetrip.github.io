@@ -170,17 +170,17 @@ em {
 
 .download {
   width: 100%;
-  height: 164px;
+  height: 166px;
   margin: 20% 0 0;
 }
 .download .trigger {
   display: block;
   width: 100%;
-  height: 164px;
-  line-height: 164px;
+  height: 166px;
+  line-height: 166px;
   background: #fff;
-  border-top: 10px solid #e0dcde;
-  border-bottom: 10px solid #e0dcde;
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid #fff;
   color: #e0dcde;
   font-family: 'Dosis', sans-serif;
   font-size: 200%;
@@ -282,6 +282,10 @@ em {
   .lyric .hook {
     font-size: 70%;
     letter-spacing: 0.15em;
+  }
+  .download .trigger {
+    height: 100px;
+    line-height: 100px;
   }
   .credit .creditList,
   .specialThanks .place,
