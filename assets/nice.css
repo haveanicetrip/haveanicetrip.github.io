@@ -69,18 +69,9 @@ em {
   letter-spacing: 0.1em;
 }
 
-
 .cover {
   margin-top: 20%;
 }
-
-@media screen and (max-width: 640px) {
-  .cover {
-    margin-top: 0;
-    width: 100%;
-  }
-}
-
 
 .information {
   margin-top: 10%;
@@ -202,4 +193,31 @@ em {
   text-align: right;
   font-size: 130%;
   letter-spacing: 0.1em;
+}
+
+
+@media screen and (max-width:640px) {
+  .cover {
+    margin-top: 0;
+    width: 100%;
+  }
+  .title {
+    font-size: 160%;
+  }
+  .heading,
+  .information .featuring,
+  .download .trigger {
+    font-size: 130%;
+  }
+  .produced {
+    font-size: 80%;
+  }
+  .lyric .verse1,
+  .lyric .verse2,
+  .lyric .hook,
+  .specialThanks .place,
+  .specialThanks .twitter {
+    font-size: 70%;
+    letter-spacing: 0.05em;
+  }
 }
