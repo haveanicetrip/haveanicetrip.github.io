@@ -17,6 +17,9 @@ iframe {
 a {
   color: #ff0e33;
 }
+a:hover {
+  text-decoration: none;
+}
 
 
 /* reset */
@@ -48,11 +51,21 @@ em {
 
 .cover,
 .information,
+.soundcloud,
+.lyric,
 .download,
 .specialThanks {
   width: 60%;
   margin: 0 auto;
   text-align: center;
+}
+
+.heading {
+  margin-top: 2%;
+  color: #fff;
+  font-size: 160%;
+  text-align: center;
+  letter-spacing: 0.1em;
 }
 
 
@@ -94,17 +107,66 @@ em {
   font-style: italic;
 }
 
-.download {
+.music {
+}
+
+.soundcloud {
   width: 100%;
   margin: 10% 0 0;
+}
+
+.lyric {
+  margin-top: 10%;
+}
+.lyric .heading {
+}
+.lyric .verse1,
+.lyric .verse2,
+.lyric .hook {
+  margin-top: 7%;
+  line-height:2;
+  text-align: left;
+  font-size: 130%;
+  letter-spacing: 0.15em;
+}
+.lyric .name {
+  font-size: 80%;
+  letter-spacing: 0.1em;
+}
+.lyric .verse1 {
+}
+.lyric .verse1.koitama {
+}
+.lyric .verse1.koitama .name {
+  color: green;
+}
+.lyric .verse2.kaionthemic {
+}
+.lyric .verse2.kaionthemic .name {
+  color: #ff0e33;
+}
+.lyric .hook {
+}
+.lyric .hook.carios {
+}
+.lyric .hook.carios .name {
+  color: blue;
+}
+
+
+.download {
+  width: 100%;
+  height: 164px;
+  margin: 20% 0 0;
 }
 .download .trigger {
   display: block;
   width: 100%;
+  height: 164px;
+  line-height: 164px;
   background: #fff;
   border-top: 10px solid #e2e2e2;
   border-bottom: 10px solid #e2e2e2;
-  padding: 5% 0;
   color: #e2e2e2;
   font-size: 200%;
   font-weight: bold;
@@ -119,20 +181,17 @@ em {
 
 
 .specialThanks {
-  margin-top: 10%;
-  margin-bottom: 30%;
+  margin-top: 15%;
+  margin-bottom: 40%;
 }
 .specialThanks .heading {
   margin-top: 2%;
-  color: #fff;
-  font-size: 160%;
-  text-align: right;
-  letter-spacing: 0.1em;
 }
 .specialThanks .place,
 .specialThanks .twitter {
-  margin-top: 5%;
+  margin-top: 10%;
   line-height: 2;
   text-align: right;
+  font-size: 130%;
   letter-spacing: 0.1em;
 }
