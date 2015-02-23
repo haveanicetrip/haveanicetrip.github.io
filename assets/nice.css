@@ -180,7 +180,7 @@ em {
 
 
 .specialThanks {
-  margin-top: 15%;
+  margin-top: 10%;
   margin-bottom: 40%;
 }
 .specialThanks .heading {
@@ -201,23 +201,26 @@ em {
     margin-top: 0;
     width: 100%;
   }
+  .specialThanks {
+    margin-top: 20%;
+  }
   .title {
-    font-size: 160%;
+    font-size: 150%;
   }
   .heading,
   .information .featuring,
   .download .trigger {
-    font-size: 130%;
+    font-size: 120%;
   }
   .produced {
-    font-size: 80%;
+    font-size: 70%;
   }
   .lyric .verse1,
   .lyric .verse2,
   .lyric .hook,
   .specialThanks .place,
   .specialThanks .twitter {
-    font-size: 70%;
+    font-size: 60%;
     letter-spacing: 0.05em;
   }
 }
