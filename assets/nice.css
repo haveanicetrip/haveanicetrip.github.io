@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import "normalize.css";
 @import url(http://fonts.googleapis.com/css?family=Dosis);
+@import "font-awesome.min.css";
 
 /* base */
 body {
@@ -16,9 +17,13 @@ iframe {
   border: none;
 }
 a {
+  border-bottom: none;
+  padding-bottom: 0.2em;
   color: #ff0e33;
+  text-decoration: none;
 }
 a:hover {
+  border-bottom: 2px solid #ff0e33;
   text-decoration: none;
 }
 
@@ -55,7 +60,7 @@ em {
 .soundcloud,
 .lyric,
 .download,
-.specialThanks {
+.footnote {
   width: 60%;
   margin: 0 auto;
   text-align: center;
@@ -152,7 +157,7 @@ em {
 .lyric .verse2.kaionthemic {
 }
 .lyric .verse2.kaionthemic .name {
-  color: #ff0e33;
+  color: #fff;
 }
 .lyric .hook {
 }
@@ -190,9 +195,38 @@ em {
 }
 
 
+.footnote {
+}
+
+.credit {
+  margin-top: 10%;
+}
+.credit .heading {
+  margin-top: 2%;
+}
+.credit .creditList {
+  margin-top: 10%;
+  line-height: 2;
+  text-align: right;
+  font-family: 'Dosis', Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 130%;
+  letter-spacing: 0.1em;
+}
+.credit .creditList .title {
+  color: #fff;
+  font-style: italic;
+}
+.credit .creditList .caption {
+  font-size: 70%;
+}
+.credit .creditList .fa-twitter {
+  transform: scale(0.8);
+  -webkit-transform: scale(0.7);
+}
+
+
 .specialThanks {
   margin-top: 10%;
-  margin-bottom: 40%;
 }
 .specialThanks .heading {
   margin-top: 2%;
@@ -200,10 +234,22 @@ em {
 .specialThanks .place,
 .specialThanks .twitter {
   margin-top: 10%;
-  line-height: 2;
+  line-height: 2.2;
   text-align: right;
   font-family: 'Dosis', Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-size: 130%;
+  letter-spacing: 0.1em;
+}
+
+.hosted {
+  margin-top: 40%;
+  margin-bottom: 20%;
+}
+.hosted .by {
+  display: inline-block;;
+  border-top: 1px solid #433;
+  padding: 2%;
+  font-family: 'Dosis', sans-serif;
   letter-spacing: 0.1em;
 }
 
@@ -236,8 +282,10 @@ em {
     font-size: 70%;
     letter-spacing: 0.15em;
   }
+  .credit .creditList,
   .specialThanks .place,
-  .specialThanks .twitter {
+  .specialThanks .twitter,
+  .hosted .by {
     font-size: 60%;
     letter-spacing: 0.05em;
   }
