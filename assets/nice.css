@@ -196,6 +196,7 @@ em {
 
 
 .footnote {
+  margin-top: 10%;
 }
 
 .credit {
@@ -226,7 +227,7 @@ em {
 
 
 .specialThanks {
-  margin-top: 10%;
+  margin-top: 20%;
 }
 .specialThanks .heading {
   margin-top: 2%;
