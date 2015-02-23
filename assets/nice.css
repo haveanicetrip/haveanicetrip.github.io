@@ -277,8 +277,8 @@ em {
   .produced {
     font-size: 70%;
   }
-.soundcloud {
-    margin: 20% 0 0;
+  .soundcloud {
+    margin-top: 20%;
   }
   .lyric {
     width: 80%;
@@ -292,6 +292,9 @@ em {
   .download .trigger {
     height: 100px;
     line-height: 100px;
+  }
+  .specialThanks {
+    margin-top: 30%;
   }
   .credit .creditList,
   .specialThanks .place,
