@@ -227,9 +227,15 @@ em {
   .produced {
     font-size: 70%;
   }
+  .lyric {
+    width: 80%;
+  }
   .lyric .verse1,
   .lyric .verse2,
-  .lyric .hook,
+  .lyric .hook {
+    font-size: 70%;
+    letter-spacing: 0.15em;
+  }
   .specialThanks .place,
   .specialThanks .twitter {
     font-size: 60%;
