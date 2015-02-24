@@ -28,6 +28,19 @@ a:hover {
 }
 
 
+/* helper */
+.clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+.hidden {
+  display: none;
+}
+
+
 /* reset */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -245,8 +258,26 @@ em {
 }
 
 
-.hosted {
+.social {
   margin-top: 40%;
+}
+.social .buttonList {
+}
+.social .buttonList .button {
+  display: inline-block;
+  vertical-align: middle;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 5%;
+  font-size: 120%;
+}
+.social .buttonList .button:last-child {
+  margin-right: 0; 
+}
+
+
+.hosted {
+  margin-top: 2%;
   margin-bottom: 20%;
 }
 .hosted .by {
@@ -299,6 +330,7 @@ em {
   .credit .creditList,
   .specialThanks .place,
   .specialThanks .twitter,
+  .social .buttonList .button,
   .hosted .by {
     font-size: 60%;
     letter-spacing: 0.05em;
