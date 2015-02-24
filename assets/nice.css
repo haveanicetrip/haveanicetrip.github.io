@@ -13,6 +13,11 @@ img {
   height: auto;
   vertical-align: middle;
 }
+img, video {
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+}
 iframe {
   border: none;
 }
